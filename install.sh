@@ -18,3 +18,7 @@ echo "usb-creator-gtk installed."
 echo "Installing vscode..."
 sh scripts/vscode-install.sh
 echo "vscode installed."
+
+echo "Installing chrome..."
+sh scripts/chrome-install.sh
+echo "chrome installed."
