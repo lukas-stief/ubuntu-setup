@@ -14,3 +14,7 @@ echo "Gnome settings applied."
 echo "Installing usb-creator-gtk..."
 sh scripts/usb-creator-gtk-install.sh
 echo "usb-creator-gtk installed."
+
+echo "Installing vscode..."
+sh scripts/vscode-install.sh
+echo "vscode installed."
