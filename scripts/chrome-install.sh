@@ -7,5 +7,5 @@ xdg-settings set default-web-browser google-chrome.desktop
 # add chrome to the favorites
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed "s/]$/, 'google-chrome.desktop']/")"
 
-# add shortcut Super+C to open chrome
+# add shortcut
 ./scripts/add-keybinding.sh "Launch Chrome" "google-chrome" "<Super>c"
